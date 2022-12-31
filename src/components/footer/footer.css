@@ -1,0 +1,13 @@
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: small;
+}
+
+p:hover {
+  font: bold;
+  color: blueviolet;
+  text-decoration: underline;
+}
