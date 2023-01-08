@@ -1,12 +1,13 @@
-a {
-  text-decoration: none;
-}
-
 p {
   font-size: small;
 }
 
-p:hover {
+.footer-item {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-item :hover {
   font: bold;
   color: blueviolet;
   text-decoration: underline;
