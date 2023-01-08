@@ -6,7 +6,7 @@ import "./header.css";
 function Header() {
   return (
     <section>
-      <div>
+      <div className="headerImage">
         <img src={Smokies} alt="The Great Smoky Mountains" />
       </div>
       <div>

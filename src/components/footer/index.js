@@ -8,7 +8,7 @@ function Footer() {
         <a href=""> Contact Me!</a>
       </p>
       <p>
-        <a href="https://github.com/Lil-Chevy"> GitHub</a>
+        <a href="https://github.com/Lil-Chevy">GitHub</a>
       </p>
       <p>
         <a href="https://www.linkedin.com/in/jack-nowaczewski/">LinkedIn</a>

@@ -1,12 +1,17 @@
+import React from "react";
+import logo from "./logo.svg";
 import "./App.css";
 import Header from "./components/Header";
+import Navbar from "./components/Nav-Bar";
 import Body from "./components/Body";
 import Footer from "./components/footer";
+
 function App() {
   return (
     <section>
-      <Header />
-
+      <Header>
+        <Navbar />
+      </Header>
       <Body />
       <Footer />
     </section>
