@@ -9,13 +9,13 @@ function Navbar() {
         Home
       </a>
       <a className="menu-item" href="/about">
-        about
+        About
       </a>
       <a className="menu-item" href="/resume">
-        resume
+        Resume
       </a>
       <a className="menu-item" href="/projects">
-        projects
+        Projects
       </a>
     </Menu>
   );
