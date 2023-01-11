@@ -1,19 +1,28 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter, Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Navbar from "./components/Nav-Bar";
-import Body from "./components/Body";
+import Home from "./components/Home";
+import About from "./components/About";
+import Resume from "./components/Resume";
+import Projects from "./components/Projects";
 import Footer from "./components/footer";
 
 function App() {
   return (
-    <section>
+    <BrowserRouter>
       <Header>
         <Navbar />
       </Header>
-      <Body />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Resume" element={<Resume />} />
+        <Route Path="/Projects" element={<Projects />} />
+      </Routes>
       <Footer />
-    </section>
+    </BrowserRouter>
   );
 }
 
