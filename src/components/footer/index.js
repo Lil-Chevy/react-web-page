@@ -3,7 +3,7 @@ import "./footer.css";
 
 function Footer() {
   return (
-    <section>
+    <section className="footer">
       <p className="footer-item">
         <a href=""> Contact Me!</a>
       </p>
