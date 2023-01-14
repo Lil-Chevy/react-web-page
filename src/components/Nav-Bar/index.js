@@ -17,6 +17,9 @@ function Navbar() {
       <a className="menu-item" href="/projects">
         Projects
       </a>
+      <a className="menu-item" href="/bootstrappage">
+        BootStrap Page
+      </a>
     </Menu>
   );
 }
