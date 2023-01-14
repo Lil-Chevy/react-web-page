@@ -1,0 +1,13 @@
+.home-content {
+  text-align: center;
+  font-size: larger;
+  color: black;
+}
+
+#content-box {
+  margin: 10px;
+  padding: 25px;
+  border-style: inset;
+  border-radius: 5px;
+  border-color: bisque;
+}
