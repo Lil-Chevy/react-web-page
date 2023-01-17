@@ -17,8 +17,8 @@ function Navbar() {
       <a className="menu-item" href="/projects">
         Projects
       </a>
-      <a className="menu-item" href="/bootstrappage">
-        BootStrap Page
+      <a className="menu-item" href="/testingpage">
+        Testing Page
       </a>
     </Menu>
   );
