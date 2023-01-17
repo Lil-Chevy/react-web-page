@@ -10,7 +10,7 @@ function BootstrapPage() {
           <ul className="nav me-auto">
             <li className="nav-item">
               <a
-                href="#"
+                href="/"
                 className="nav-link link-dark px-2 active"
                 aria-current="page"
               >
@@ -18,22 +18,22 @@ function BootstrapPage() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link link-dark px-2">
+              <a href="/about" className="nav-link link-dark px-2">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link link-dark px-2">
+              <a href="/resume" className="nav-link link-dark px-2">
                 Resume
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link link-dark px-2">
+              <a href="/projects" className="nav-link link-dark px-2">
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link link-dark px-2">
+              <a href="/bootstrappage" className="nav-link link-dark px-2">
                 Bootstrap page
               </a>
             </li>
