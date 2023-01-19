@@ -4,7 +4,7 @@ import DownloadDoc from "../../assets/resumeDownload/JackNowaczewskiResume.pdf";
 
 function Resume() {
   return (
-    <section>
+    <section className="resumes-section">
       <div>Please feel free to review and download my resume! </div>
       <button className="resume-button">
         <a
