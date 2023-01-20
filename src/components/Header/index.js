@@ -1,7 +1,7 @@
 import React from "react";
-import NavBar from "../Nav-Bar";
 import "../../App.css";
 import "./header.css";
+import WelcomeMessage from "../WelcomeMessage";
 
 function Header() {
   return (
@@ -43,13 +43,7 @@ function Header() {
       </nav>
       <header className="py-3 mb-4 border-bottom">
         <div className="container d-flex flex-wrap justify-content-center">
-          <a
-            href="/"
-            className="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none"
-          >
-            <svg className="bi me-2" width="40" height="32"></svg>
-            <span className="fs-4"> Welcome</span>
-          </a>
+          <WelcomeMessage />
           <form className="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
             {/* place to put nav bar  */}
             {/* will need to be on the right side */}

@@ -3,7 +3,7 @@ import "./home.css";
 
 function Home() {
   return (
-    <section>
+    <section className="home">
       <div id="content-box">
         <p className="home-content">Hello! And Welcome to My Web Page!</p>
         <p className="home-content">
