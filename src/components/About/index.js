@@ -5,7 +5,7 @@ import "../../App.css";
 function About() {
   return (
     <section className="yeet">
-      <div className="col-lg-8 mx-auto p-4 py-md-5">
+      <div className="mx-auto p-4 py-md-5">
         <div>
           <h1>Hey there!</h1>
           <p className="fs-5 col-md-8">
