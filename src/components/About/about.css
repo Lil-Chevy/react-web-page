@@ -1,0 +1,16 @@
+.section {
+}
+
+.photo-box {
+  /* dont change below this line */
+  width: fit-content;
+  padding: 5px;
+  border-style: double;
+  border-color: black;
+}
+
+.about-photo {
+  width: 20vh;
+  height: auto;
+  margin-bottom: auto;
+}
