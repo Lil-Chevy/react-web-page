@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-
+// this component dynamically renders the welcome message in the header of the home page
 function WelcomeMessage() {
   return (
     <a

@@ -10,6 +10,7 @@ function Header() {
         <div className="container d-flex flex-wrap">
           <ul className="nav me-auto">
             <li className="nav-item">
+              {/* NavBar Links */}
               <a
                 href="/"
                 className="nav-link link-dark px-2 active"
@@ -41,13 +42,14 @@ function Header() {
           </ul>
         </div>
       </nav>
+      {/* welcome header */}
       <header className="py-3 mb-4 border-bottom">
         <div className="container d-flex flex-wrap justify-content-center">
           <WelcomeMessage />
-          <form className="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-            {/* place to put nav bar  */}
-            {/* will need to be on the right side */}
-          </form>
+          <form
+            className="col-12 col-lg-auto mb-3 mb-lg-0"
+            role="search"
+          ></form>
         </div>
       </header>
     </section>
