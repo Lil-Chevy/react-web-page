@@ -5,11 +5,11 @@ import ResumePhotoTwo from "../../assets/resumePhotos/pageTwoResume.png";
 
 function PdfViewer() {
   return (
-    <section>
-      <div>
+    <section className="resume-section">
+      <div className="resume-cards">
         <img src={ResumePhotoOne} alt="resume page one" className="resumeOne" />
       </div>
-      <div>
+      <div className="resume-cards">
         <img src={ResumePhotoTwo} alt="resume page two" className="resumeTwo" />
       </div>
       <p></p>

@@ -1,4 +1,19 @@
+/* make the resume pages smaller  */
 img {
-  position: sticky;
   width: fit-content;
+  height: 50rem;
+}
+/* centers image and leaves them side by side */
+.resume-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  height: min-content;
+}
+
+/* add spacing between images */
+.resume-cards {
+  height: fit-content;
+  padding: 10px;
 }
