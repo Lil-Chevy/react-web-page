@@ -2,3 +2,8 @@
   margin: 5vh;
   border-radius: 10px;
 }
+
+.download-button {
+  display: flex;
+  justify-content: center;
+}

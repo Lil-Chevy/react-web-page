@@ -12,15 +12,17 @@ function Resume() {
         <PdfViewer />
       </div>
       {/* Download button for resume */}
-      <button className="resume-button">
-        <a
-          className="resume-button"
-          href={DownloadDoc}
-          download="JackNowaczewskiResume.pdf"
-        >
-          Download My Resume
-        </a>
-      </button>
+      <div className="download-button">
+        <button className="resume-button">
+          <a
+            className="resume-button"
+            href={DownloadDoc}
+            download="JackNowaczewskiResume.pdf"
+          >
+            Download My Resume
+          </a>
+        </button>
+      </div>
     </section>
   );
 }
