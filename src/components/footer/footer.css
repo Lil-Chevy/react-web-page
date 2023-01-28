@@ -4,6 +4,7 @@ p {
 
 .footer {
   margin: 10px;
+  padding: 10px;
   bottom: 5vh;
   width: 100%;
   height: fit-content; /* Footer height */
