@@ -6,7 +6,9 @@ import PdfViewer from "../PdfViewer";
 function Resume() {
   return (
     <section className="resumes-section">
-      <div>Please feel free to review and download my resume! </div>
+      <div className="greeting">
+        Please feel free to review and download my resume!{" "}
+      </div>
       {/* PDF Viewer component */}
       <div>
         <PdfViewer />
