@@ -6,7 +6,7 @@ function Footer() {
     <section className="footer">
       {/* Contact Links */}
       <p className="footer-item">
-        <a href=""> Contact Me!</a>
+        <a href="/contact"> Contact Me!</a>
       </p>
       {/* GitHub Link */}
       <p className="footer-item">
