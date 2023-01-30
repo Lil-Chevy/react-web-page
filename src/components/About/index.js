@@ -47,7 +47,6 @@ function About() {
                 </li>
               </ul>
             </div>
-
             <div className="col-md-6">
               <h2>Any Suggestions?</h2>
               <p>Leave a review on my contact page for more information!</p>
