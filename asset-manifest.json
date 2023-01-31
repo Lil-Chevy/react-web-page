@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-web-page/static/css/main.fa54f9fd.css",
+    "main.js": "/react-web-page/static/js/main.75d45f6c.js",
+    "static/js/787.0cae94b9.chunk.js": "/react-web-page/static/js/787.0cae94b9.chunk.js",
+    "static/media/weddingPhoto.jpg": "/react-web-page/static/media/weddingPhoto.04e6a2c60d2f368117d4.jpg",
+    "static/media/pageOneResume.png": "/react-web-page/static/media/pageOneResume.72d9e444583533f90dc4.png",
+    "static/media/pageTwoResume.png": "/react-web-page/static/media/pageTwoResume.634fce5ecd4afd2e15ca.png",
+    "static/media/JackNowaczewskiResume.pdf": "/react-web-page/static/media/JackNowaczewskiResume.f09f3769fb85ab5d3331.pdf",
+    "index.html": "/react-web-page/index.html",
+    "main.fa54f9fd.css.map": "/react-web-page/static/css/main.fa54f9fd.css.map",
+    "main.75d45f6c.js.map": "/react-web-page/static/js/main.75d45f6c.js.map",
+    "787.0cae94b9.chunk.js.map": "/react-web-page/static/js/787.0cae94b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa54f9fd.css",
+    "static/js/main.75d45f6c.js"
+  ]
+}
