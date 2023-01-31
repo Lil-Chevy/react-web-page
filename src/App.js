@@ -13,7 +13,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-web-page">
       <Header>
         <Navbar />
       </Header>
