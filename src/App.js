@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Navbar from "./components/Nav-Bar";
 import Home from "./components/Home";
@@ -14,7 +14,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     // may have to remove below "basename" and use has router instead due to compatibility with Browser router.
-    <HashRouter basename="/react-web-page">
+    <BrowserRouter basename="/react-web-page">
       <Header>
         <Navbar />
       </Header>
@@ -27,7 +27,7 @@ function App() {
         <Route path="react-web-page/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
