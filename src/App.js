@@ -19,12 +19,12 @@ function App() {
         <Navbar />
       </Header>
       <Routes>
-        <Route path="react-web-page/" element={<Home />} />
-        <Route path="react-web-page/About" element={<About />} />
-        <Route path="react-web-page/Resume" element={<Resume />} />
-        <Route path="react-web-page/Projects" element={<Projects />} />
-        <Route path="react-web-page/TestingPage" element={<TestingPage />} />
-        <Route path="react-web-page/contact" element={<Contact />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Resume" element={<Resume />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/TestingPage" element={<TestingPage />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>
