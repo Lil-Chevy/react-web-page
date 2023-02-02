@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+// Importing Components
 import Header from "./components/Header";
 import Navbar from "./components/Nav-Bar";
 import Home from "./components/Home";

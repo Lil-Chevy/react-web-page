@@ -7,7 +7,7 @@ Feel free to contact me if you need any help!
 
 # How To Deploy
 
-Currently this webpage is not deployed. To test the page locally, run "npm run start" in terminal to see.
+Currently this webpage is not deployed. To test the page locally, run "npm run start" in terminal.
 
 ## Contributors
 
