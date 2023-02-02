@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://lil-chevy.github.io/react-web-page/static/css/main.fa54f9fd.css",
-    "main.js": "https://lil-chevy.github.io/react-web-page/static/js/main.9afdaf84.js",
+    "main.js": "https://lil-chevy.github.io/react-web-page/static/js/main.0f557e7f.js",
     "static/js/787.0cae94b9.chunk.js": "https://lil-chevy.github.io/react-web-page/static/js/787.0cae94b9.chunk.js",
     "static/media/weddingPhoto.jpg": "https://lil-chevy.github.io/react-web-page/static/media/weddingPhoto.04e6a2c60d2f368117d4.jpg",
     "static/media/pageOneResume.png": "https://lil-chevy.github.io/react-web-page/static/media/pageOneResume.72d9e444583533f90dc4.png",
@@ -9,11 +9,11 @@
     "static/media/JackNowaczewskiResume.pdf": "https://lil-chevy.github.io/react-web-page/static/media/JackNowaczewskiResume.f09f3769fb85ab5d3331.pdf",
     "index.html": "https://lil-chevy.github.io/react-web-page/index.html",
     "main.fa54f9fd.css.map": "https://lil-chevy.github.io/react-web-page/static/css/main.fa54f9fd.css.map",
-    "main.9afdaf84.js.map": "https://lil-chevy.github.io/react-web-page/static/js/main.9afdaf84.js.map",
+    "main.0f557e7f.js.map": "https://lil-chevy.github.io/react-web-page/static/js/main.0f557e7f.js.map",
     "787.0cae94b9.chunk.js.map": "https://lil-chevy.github.io/react-web-page/static/js/787.0cae94b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa54f9fd.css",
-    "static/js/main.9afdaf84.js"
+    "static/js/main.0f557e7f.js"
   ]
 }
