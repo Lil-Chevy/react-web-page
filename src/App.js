@@ -16,7 +16,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     // may have to remove below "basename" and use has router instead due to compatibility with Browser router.
-    <BrowserRouter basename="/react-web-page">
+    <BrowserRouter>
       <Header>
         <Navbar />
       </Header>
