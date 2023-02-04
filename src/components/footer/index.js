@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 
+// Footer Component below contains links for Contact information, GitHub, LinkedIn, and Code wars Profile.
 function Footer() {
   return (
     <section className="footer">
