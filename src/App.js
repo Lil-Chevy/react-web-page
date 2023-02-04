@@ -10,7 +10,6 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import TestingPage from "./components/TestingPage";
-import Contact from "./components/Contact";
 
 function App() {
   return (
