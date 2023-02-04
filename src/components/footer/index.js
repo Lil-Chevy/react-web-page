@@ -6,9 +6,9 @@ function Footer() {
   return (
     <section className="footer">
       {/* Contact Links */}
-      <p className="footer-item">
+      {/* <p className="footer-item">
         <a href="/contact"> Contact Me!</a>
-      </p>
+      </p> */}
       {/* GitHub Link */}
       <p className="footer-item">
         <a href="https://github.com/Lil-Chevy">GitHub</a>
