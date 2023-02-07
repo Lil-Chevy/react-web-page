@@ -10,7 +10,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import TestingPage from "./components/TestingPage";
-import Footer from "./components/Footer";
+import CustomFooter from "./components/Custom-Footer";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/TestingPage" element={<TestingPage />} />
-        <Footer />
+        <CustomFooter />
       </Routes>
       {/* removed fot until issues with external email system is resolved */}
       {/* <Footer /> */}
