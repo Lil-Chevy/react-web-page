@@ -25,8 +25,8 @@ function App() {
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/TestingPage" element={<TestingPage />} />
-        <CustomFooter />
       </Routes>
+      <CustomFooter />
       {/* removed fot until issues with external email system is resolved */}
       {/* <Footer /> */}
     </BrowserRouter>
