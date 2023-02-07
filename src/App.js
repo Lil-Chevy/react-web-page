@@ -14,7 +14,6 @@ import CustomFooter from "./components/Custom-Footer";
 
 function App() {
   return (
-    // may have to remove below "basename" and use has router instead due to compatibility with Browser router.
     <BrowserRouter>
       <Header>
         <Navbar />
@@ -27,8 +26,6 @@ function App() {
         <Route path="/TestingPage" element={<TestingPage />} />
       </Routes>
       <CustomFooter />
-      {/* removed fot until issues with external email system is resolved */}
-      {/* <Footer /> */}
     </BrowserRouter>
   );
 }

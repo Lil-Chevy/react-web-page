@@ -1,8 +1,8 @@
 import React from "react";
-import "./footer.css";
+import "./customFooter.css";
 
 // Footer Component below contains links for Contact information, GitHub, LinkedIn, and Code wars Profile.
-function Footer() {
+function CustomFooter() {
   return (
     <section className="footer">
       {/* Contact Links */}
@@ -25,4 +25,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default CustomFooter;
