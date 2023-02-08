@@ -1,13 +1,11 @@
 import React from "react";
 import "./carousel.css";
 
+// carousel is for projects to rotate on Projects page
 function Carousel() {
   return (
     <section>
-      <div>
-        This will be the Carousel for all the projects that i will display in
-        the projects section. If Questions, please feel free to reach out,
-      </div>
+      <div>{/* add carousel component from bootstrap */}</div>
     </section>
   );
 }
