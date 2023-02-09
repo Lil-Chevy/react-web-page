@@ -1,6 +1,6 @@
 .carousel-container {
   width: 800px;
-  height: 400px;
+  height: auto;
   padding: 5px;
   border-style: double;
   border-color: black;
@@ -11,3 +11,21 @@
   height: auto;
   margin-bottom: auto;
 }
+
+/* resize box but it is far too small */
+/* .carousel-container {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    height: fit-content;
+    padding: 5px;
+    border-style: double;
+    border-color: black;
+  }
+  
+  .firstPhoto {
+    width: 20vh;
+    height: auto;
+    margin-bottom: auto;
+  }
+   */

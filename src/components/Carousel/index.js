@@ -27,7 +27,7 @@ function CarouselComponent() {
             alt="slide one of project one"
           />
           <Carousel.Caption>
-            <h3>First Slide Label</h3>
+            <h3>Second Slide Label</h3>
             <p>Paragraph</p>
           </Carousel.Caption>
         </Carousel.Item>
