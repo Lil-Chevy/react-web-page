@@ -8,6 +8,7 @@ function CarouselComponent() {
   return (
     <section className="carousel-container">
       <Carousel>
+        {/* Slide One */}
         <Carousel.Item>
           <img
             className="d-block w-100 firstPhoto"
@@ -19,7 +20,7 @@ function CarouselComponent() {
             <p>Paragraph</p>
           </Carousel.Caption>
         </Carousel.Item>
-
+        {/* slide Two */}
         <Carousel.Item>
           <img
             className="d-block w-100 firstPhoto"
@@ -35,5 +36,5 @@ function CarouselComponent() {
     </section>
   );
 }
-
+// export Carousel for Component usage
 export default CarouselComponent;
