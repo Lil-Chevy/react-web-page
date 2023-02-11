@@ -33,6 +33,18 @@ function CarouselComponent() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      {/* Slide Three */}
+      <Carousel.Item>
+        <img
+          className="d-block w-100 firstPhoto"
+          src={Smokies}
+          alt="slide one of project one"
+        />
+        <Carousel.Caption>
+          <h3>Second Slide Label</h3>
+          <p>Paragraph</p>
+        </Carousel.Caption>
+      </Carousel.Item>
     </section>
   );
 }
