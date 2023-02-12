@@ -3,10 +3,13 @@ import Carousel from "react-bootstrap/Carousel";
 import PortfolioPhotoOne from "../../assets/Portfolio/0.png";
 import PortfolioPhotoTwo from "../../assets/Portfolio/1.png";
 import PortfolioPhotoThree from "../../assets/Portfolio/2.png";
+import PortfolioPhotoFour from "../../assets/Portfolio/3.png";
 
 import "./carousel.css";
 
 // carousel is for projects to rotate on Projects page
+// Iterate for dynamic card reading.
+
 function CarouselComponent() {
   return (
     <section className="carousel-container">
@@ -19,8 +22,8 @@ function CarouselComponent() {
             alt="slide one of project one"
           />
           <Carousel.Caption>
-            <h3>Run-Buddy</h3>
-            <p> This is the First Slide Paragraph</p>
+            <h3>Run Buddy</h3>
+            <p> Run Buddy is a website that offers fitness training services</p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* slide Two */}
@@ -32,7 +35,10 @@ function CarouselComponent() {
           />
           <Carousel.Caption>
             <h3>Note Taker</h3>
-            <p>This is the Second Slide Paragraph</p>
+            <p>
+              This app is to be used for taking personal notes that can be
+              created, updated, or deleted.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* Slide Three */}
