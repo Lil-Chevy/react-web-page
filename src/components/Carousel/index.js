@@ -19,7 +19,7 @@ function CarouselComponent() {
             alt="slide one of project one"
           />
           <Carousel.Caption>
-            <h3>First Slide Label</h3>
+            <h3>Run-Buddy</h3>
             <p> This is the First Slide Paragraph</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -31,7 +31,7 @@ function CarouselComponent() {
             alt="slide one of project one"
           />
           <Carousel.Caption>
-            <h3>Second Slide Label</h3>
+            <h3>Note Taker</h3>
             <p>This is the Second Slide Paragraph</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -43,7 +43,7 @@ function CarouselComponent() {
             alt="slide one of project one"
           />
           <Carousel.Caption>
-            <h3>Third Slide Label</h3>
+            <h3>ReadMe.md Generator</h3>
             <p>This is the Third Slide Paragraph </p>
           </Carousel.Caption>
         </Carousel.Item>
