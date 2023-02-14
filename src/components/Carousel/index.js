@@ -51,7 +51,10 @@ function CarouselComponent() {
           />
           <Carousel.Caption>
             <h3>ReadMe.md Generator</h3>
-            <p>This is the Third Slide Paragraph </p>
+            <p>
+              given answers to a list of questions, the application will produce
+              a ReadMe.md
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

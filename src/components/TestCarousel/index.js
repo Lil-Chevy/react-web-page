@@ -8,24 +8,67 @@ import "./testingCarousel.css";
 
 function TestingCarouselComponent(props) {
   // dynamically render photos in slides for the carousel
-  const portfolioImages = {
-    name: "Run Buddy",
-    descriptions:
-      " Run Buddy is a website that offers fitness training services",
-    alt: "slide one of project one",
-  };
+  const portfolioImages = [
+    {
+      name: "Run Buddy",
+      descriptions:
+        " Run Buddy is a website that offers fitness training services",
+      alt: "Run Buddy Project",
+    },
+    {
+      name: "Note Taker",
+      descriptions:
+        "This app is to be used for taking personal notes that can be created, updated, or deleted.",
+      alt: "Note Taker Project",
+    },
+    {
+      name: "ReadMe.md Generator",
+      descriptions:
+        "given answers to a list of questions, the application will produce a ReadMe.md",
+      alt: "Readme Generator Project",
+    },
+    {
+      name: "Work Day Scheduler",
+      descriptions:
+        "This app is used to help schedule your work day. Uses persistent data to save information",
+      alt: "Work Day Scheduler Project",
+    },
+    {
+      name: "Robot Gladiators",
+      descriptions:
+        "An MVP Project to help the user enjoy their time fighting robots",
+      alt: "Robot Gladiators Project",
+    },
+    {
+      name: "Bug Bash!",
+      descriptions:
+        "Social Media site made for problem solving code issues. Log in an post your issues!",
+      alt: "Bug Bash Website Project",
+    },
+    {
+      name: "SiteSeer",
+      descriptions:
+        "Social Media site dedicated to campers finding their next location for camping.",
+      alt: "SiteSeer Website Project",
+    },
+  ];
   return (
     <section className="carousel-container">
+      {/* carousel start */}
       <Carousel variant="dark">
-        {/* Slide One */}
+        {/* slides  */}
         <Carousel.Item>
           <img
             className="d-block w-100 firstPhoto"
+            // dynamic rendering of image
             src={Images}
             alt="slide One of project one"
           />
+          {/* captions */}
           <Carousel.Caption>
+            {/* Name Of Slide */}
             <h3>{portfolioImages.name}</h3>
+            {/* Description of Project */}
             <p>{portfolioImages.descriptions}</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -45,8 +88,10 @@ export default TestingCarouselComponent;
 // if (i < the number of photos) {
 // i = 0   ({[i].png})
 // }else if (var i = 0; i < Number of photos; i++) {
-//  [i].png }
+//  ../assets/portfolio/[i].png }
 //  break
 //
 //                              }}
-// something like the above ^^^^^
+
+// add href link if clicked on in the array of objects
+// study notes
