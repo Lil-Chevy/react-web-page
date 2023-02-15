@@ -52,6 +52,7 @@ function TestingCarouselComponent(props) {
       alt: "SiteSeer Website Project",
     },
   ];
+
   return (
     <section className="carousel-container">
       {/* carousel start */}
