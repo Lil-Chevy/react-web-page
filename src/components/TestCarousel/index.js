@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import Images from "../../assets/Portfolio/0.png";
 import "./testingCarousel.css";
@@ -6,52 +6,63 @@ import "./testingCarousel.css";
 // carousel is for projects to rotate on Projects page
 //  SEE NOTES AT BOTTOM  ->>>>>>
 
-function TestingCarouselComponent(props) {
+const TestingCarouselComponent = ({ sku }) => {
   // dynamically render photos in slides for the carousel
-  const portfolioImages = [
+  const [portfolioImages] = useState([
     {
-      name: "Run Buddy",
+      Name: "Run Buddy",
       descriptions:
         " Run Buddy is a website that offers fitness training services",
       alt: "Run Buddy Project",
+      sku: "0.png",
     },
     {
       name: "Note Taker",
       descriptions:
         "This app is to be used for taking personal notes that can be created, updated, or deleted.",
       alt: "Note Taker Project",
+      sku: "1.png",
     },
     {
       name: "ReadMe.md Generator",
       descriptions:
         "given answers to a list of questions, the application will produce a ReadMe.md",
       alt: "Readme Generator Project",
+      sku: "2.png",
     },
     {
       name: "Work Day Scheduler",
       descriptions:
         "This app is used to help schedule your work day. Uses persistent data to save information",
       alt: "Work Day Scheduler Project",
+      sku: "3.png",
     },
     {
       name: "Robot Gladiators",
       descriptions:
         "An MVP Project to help the user enjoy their time fighting robots",
       alt: "Robot Gladiators Project",
+      sku: "4.png",
     },
     {
       name: "Bug Bash!",
       descriptions:
         "Social Media site made for problem solving code issues. Log in an post your issues!",
       alt: "Bug Bash Website Project",
+      sku: "5.png",
     },
     {
       name: "SiteSeer",
       descriptions:
         "Social Media site dedicated to campers finding their next location for camping.",
       alt: "SiteSeer Website Project",
+      sku: "6.png",
     },
-  ];
+  ]);
+
+  const currentPhotos = portfolioImages.filter(
+    (portfolioImages) => portfolioImages.sku === sku
+  );
 
   return (
     <section className="carousel-container">
@@ -59,12 +70,16 @@ function TestingCarouselComponent(props) {
       <Carousel variant="dark">
         {/* slides  */}
         <Carousel.Item>
-          <img
-            className="d-block w-100 firstPhoto"
-            // dynamic rendering of image
-            src={Images}
-            alt="slide One of project one"
-          />
+          {/* added */}
+          {currentPhotos.map((sku, i) => (
+            <img
+              className="d-block w-100 firstPhoto"
+              // dynamic rendering of image
+              src={require(`../../assets/Portfolio/${i}.png`)}
+              alt="slide One of project one"
+            />
+            // added
+          ))}
           {/* captions */}
           <Carousel.Caption>
             {/* Name Of Slide */}
@@ -76,9 +91,15 @@ function TestingCarouselComponent(props) {
       </Carousel>
     </section>
   );
-}
+};
 // export Carousel for Component usage
 export default TestingCarouselComponent;
+
+// {
+//   photos.map((image, i) => (
+//     <img src={require(`../../assets/small/${category}/${i}.jpg`).default} />
+//   ));
+// }
 
 //  Notes: conditionally render with an if statement
 //  using to iterate until reaching the maximum number of photos
