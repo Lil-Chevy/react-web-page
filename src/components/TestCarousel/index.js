@@ -59,7 +59,7 @@ const TestingCarouselComponent = ({ sku }) => {
       sku: "6.png",
     },
   ]);
-
+  // added Remove is neccessary
   const currentPhotos = portfolioImages.filter(
     (portfolioImages) => portfolioImages.sku === sku
   );
@@ -116,4 +116,3 @@ export default TestingCarouselComponent;
 //                              }}
 
 // add href link if clicked on in the array of objects
-// study notes

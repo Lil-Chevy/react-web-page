@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+/* mobile friendly CSS and other size view ports */
+/* @media screen and (min-width: 640px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+}
+
+@media screen and (min-width: 1200px) {
+} */
