@@ -3,10 +3,14 @@ import Carousel from "react-bootstrap/Carousel";
 import PortfolioPhotoOne from "../../assets/Portfolio/0.png";
 import PortfolioPhotoTwo from "../../assets/Portfolio/1.png";
 import PortfolioPhotoThree from "../../assets/Portfolio/2.png";
+import PortfolioPhotoFour from "../../assets/Portfolio/3.png";
+import PortfolioPhotoFive from "../../assets/Portfolio/4.png";
 
 import "./carousel.css";
 
 // carousel is for projects to rotate on Projects page
+// Iterate for dynamic card reading.
+
 function CarouselComponent() {
   return (
     <section className="carousel-container">
@@ -16,11 +20,11 @@ function CarouselComponent() {
           <img
             className="d-block w-100 firstPhoto"
             src={PortfolioPhotoOne}
-            alt="slide one of project one"
+            alt="slide One of project one"
           />
           <Carousel.Caption>
-            <h3>First Slide Label</h3>
-            <p> This is the First Slide Paragraph</p>
+            <h3>Run Buddy</h3>
+            <p> Run Buddy is a website that offers fitness training services</p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* slide Two */}
@@ -28,11 +32,14 @@ function CarouselComponent() {
           <img
             className="d-block w-100 firstPhoto"
             src={PortfolioPhotoTwo}
-            alt="slide one of project one"
+            alt="slide Two of project one"
           />
           <Carousel.Caption>
-            <h3>Second Slide Label</h3>
-            <p>This is the Second Slide Paragraph</p>
+            <h3>Note Taker</h3>
+            <p>
+              This app is to be used for taking personal notes that can be
+              created, updated, or deleted.
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         {/* Slide Three */}
@@ -40,11 +47,14 @@ function CarouselComponent() {
           <img
             className="d-block w-100 firstPhoto"
             src={PortfolioPhotoThree}
-            alt="slide one of project one"
+            alt="slide Three of project one"
           />
           <Carousel.Caption>
-            <h3>Third Slide Label</h3>
-            <p>This is the Third Slide Paragraph </p>
+            <h3>ReadMe.md Generator</h3>
+            <p>
+              given answers to a list of questions, the application will produce
+              a ReadMe.md
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

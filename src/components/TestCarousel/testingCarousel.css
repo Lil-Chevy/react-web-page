@@ -1,0 +1,15 @@
+.carousel-container {
+    width: 500px;
+    height: auto;
+    padding: 5px;
+    border-style: double;
+    border-color: black;
+  }
+  
+  .firstPhoto {
+    /* justify-content: center;  */
+    width: 20vh;
+    height: auto;
+    margin-bottom: auto;
+  }
+  
