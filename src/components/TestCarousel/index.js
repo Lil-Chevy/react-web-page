@@ -95,6 +95,7 @@ const TestingCarouselComponent = ({ sku }) => {
 // export Carousel for Component usage
 export default TestingCarouselComponent;
 
+// from lesson to repurpose the dynamic rendering of photos
 // {
 //   photos.map((image, i) => (
 //     <img src={require(`../../assets/small/${category}/${i}.jpg`).default} />
@@ -106,13 +107,13 @@ export default TestingCarouselComponent;
 // then reset to base number.
 
 // Iterating function idea for dynamic card reading.
-
 // if (i < the number of photos) {
 // i = 0   ({[i].png})
 // }else if (var i = 0; i < Number of photos; i++) {
 //  ../assets/portfolio/[i].png }
 //  break
-//
-//                              }}
+// }}
 
+// note for testing
 // add href link if clicked on in the array of objects
+// dynamic href
