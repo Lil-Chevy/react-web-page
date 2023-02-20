@@ -117,3 +117,14 @@ export default TestingCarouselComponent;
 // note for testing
 // add href link if clicked on in the array of objects
 // dynamic href
+// the below is a good idea
+//  function countThis() {
+//  var count = 0;
+//   for(var i = 0; i < array.length;i++) {
+//    count++ or i++ for the sake of jpeg
+// };
+
+// use the above to iterate numbers and using the variable count instead of I in jpg!!
+// attach to button click event through js?
+//this will add to the count helping increase dynamically but we will need to find
+// out how to do it on the slide so it wont blitz through them, will have to reset the function once it reaches array length
