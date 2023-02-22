@@ -9,7 +9,6 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
-import TestingPage from "./components/TestingPage";
 import CustomFooter from "./components/Custom-Footer";
 
 function App() {
@@ -23,7 +22,6 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Projects" element={<Projects />} />
-        <Route path="/TestingPage" element={<TestingPage />} />
       </Routes>
       <CustomFooter />
     </BrowserRouter>
