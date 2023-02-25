@@ -11,7 +11,7 @@ import PortfolioPhotoSeven from "../../assets/Portfolio/6.png";
 import "./carousel.css";
 
 // carousel is for projects to rotate on Projects page
-// Iterate for dynamic card reading.
+// dynamic rendering for the future
 
 function CarouselComponent() {
   return (
@@ -87,7 +87,7 @@ function CarouselComponent() {
             <p>helps clients enjoy their spare time fighting robots.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* Slide six */}
+        {/* Slide six BugBash!*/}
         <Carousel.Item>
           <img
             className="d-block w-100 firstPhoto"
@@ -103,7 +103,7 @@ function CarouselComponent() {
             </p>
           </Carousel.Caption>
         </Carousel.Item>
-        {/* Slide seven */}
+        {/* Slide seven SiteSeer*/}
         <Carousel.Item>
           <img
             className="d-block w-100 firstPhoto"
@@ -111,7 +111,7 @@ function CarouselComponent() {
             alt="slide seven of seven project"
           />
           <Carousel.Caption>
-            <h3>Siteseer</h3>
+            <h3>SiteSeer</h3>
             <p>
               This application is a collaborative project using front-end and
               back-end technologies to create a community for Campers to find
