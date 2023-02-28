@@ -5,7 +5,7 @@ import "./projects.css";
 function Projects() {
   return (
     <section>
-      <div>Displaying Projects Page</div>
+      <div>Please feel free to checkout my projects</div>
       <CarouselComponent />
     </section>
   );

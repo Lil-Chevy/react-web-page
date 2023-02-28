@@ -34,11 +34,6 @@ function Header() {
                 Projects
               </a>
             </li>
-            <li className="nav-item">
-              <a href="/testingpage" className="nav-link link-dark px-2">
-                Testing Page
-              </a>
-            </li>
           </ul>
         </div>
       </nav>

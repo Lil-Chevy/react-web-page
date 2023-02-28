@@ -1,3 +1,9 @@
+.carousel-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .carousel-container {
   width: 500px;
   height: auto;
@@ -6,7 +12,7 @@
   border-color: black;
 }
 
-.firstPhoto {
+.portfolio-photo {
   /* justify-content: center;  */
   width: 20vh;
   height: auto;
