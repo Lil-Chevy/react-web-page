@@ -5,8 +5,12 @@ import "./projects.css";
 function Projects() {
   return (
     <section>
-      <div>Please feel free to checkout my projects</div>
-      <CarouselComponent />
+      <div className="project-section">
+        Please feel free to checkout my projects
+      </div>
+      <div>
+        <CarouselComponent />
+      </div>
     </section>
   );
 }
