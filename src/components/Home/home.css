@@ -1,9 +1,11 @@
+/* paragraph content */
 .home-content {
   text-align: center;
   font-size: larger;
   color: black;
 }
 
+/* div styling */
 #content-box {
   margin: 10px;
   padding: 25px;
