@@ -1,12 +1,27 @@
+/* styling for the section for the about page */
+.about-page-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* styling for the container surrounding about page photo */
 .photo-box {
   width: fit-content;
   padding: 5px;
   border-style: double;
   border-color: black;
+  margin-bottom: 0.5vw;
 }
 
+/* styling for about page photo */
 .about-photo {
   width: 20vh;
   height: auto;
-  margin-bottom: auto;
+  margin-bottom: 0.5vw;
+}
+
+/* paragraph styling */
+.about-page-paragraph {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
