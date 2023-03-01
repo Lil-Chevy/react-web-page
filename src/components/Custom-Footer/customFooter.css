@@ -1,8 +1,13 @@
+a {
+  color: inherit;
+}
+
 p {
   font-size: small;
 }
 
 .footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 20px;
   padding: 10px;
   bottom: 5vh;

@@ -11,7 +11,7 @@ function CustomFooter() {
       </p>
       {/* GitHub Link */}
       <p className="footer-item">
-        <a href="https://github.com/Lil-Chevy">GitHub</a>
+        <a href="https://github.com/nowaczewski">GitHub</a>
       </p>
       {/* LinkedIn Link */}
       <p className="footer-item">
