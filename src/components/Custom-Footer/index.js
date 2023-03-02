@@ -5,7 +5,7 @@ import "./customFooter.css";
 function CustomFooter() {
   return (
     <section className="footer">
-      {/* Contact Links */}
+      {/* Contact Link to Contact page/ Contact Form */}
       <p className="footer-item">
         <a href="/contact"> Contact Me!</a>
       </p>
