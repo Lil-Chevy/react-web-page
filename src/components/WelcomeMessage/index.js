@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
-import CurrentPage from "../CurrentPage";
+// import CurrentPage from "../CurrentPage";
 import "../../App.css";
 
 // this component dynamically renders the welcome message in the header of the home page
 function WelcomeMessage() {
   const [message, setMessage] = useState("");
-
+  const currentLocation = window.location.pathname;
   useEffect(() => {
-    if (CurrentPage === "/") {
+    if (currentLocation === "/") {
       setMessage("Welcome");
-    } else if (CurrentPage === "/About") {
+    } else if (currentLocation === "/about") {
       setMessage("About Me");
-    } else if (CurrentPage === "/Resume") {
+    } else if (currentLocation === "/resume") {
       setMessage("My Resume");
-    } else if (CurrentPage === "/Projects") {
+    } else if (currentLocation === "/projects") {
       setMessage("Projects");
     } else {
       setMessage("Contact Me!");
