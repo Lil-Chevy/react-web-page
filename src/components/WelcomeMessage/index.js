@@ -18,7 +18,7 @@ function WelcomeMessage() {
     } else {
       setMessage("Contact Me!");
     }
-  }, []);
+  });
 
   return (
     <a
