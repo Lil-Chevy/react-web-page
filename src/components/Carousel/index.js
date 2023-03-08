@@ -28,11 +28,12 @@ function CarouselComponent() {
   const [index, setIndex] = useState(0);
 
   //  handle select
-
   const handleSelect = (selectIndex, e) => {
     if (selectIndex === PortfolioList - 1) {
+      // reset index to zero
       setIndex(0);
     } else {
+      // update index as normal
       setIndex(selectIndex);
     }
   };
