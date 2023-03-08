@@ -30,18 +30,25 @@ function CarouselComponent() {
   //  handle select
 
   const handleSelect = (selectIndex, e) => {
-    setIndex(selectIndex);
+    if (selectIndex === PortfolioList - 1) {
+      setIndex(0);
+    } else {
+      setIndex(selectIndex);
+    }
   };
 
   return (
     <section className="carousel-section">
+      {/* React Bootstrap Carousel  */}
       <Carousel
         variant="dark"
         activeIndex={index}
         onSelect={handleSelect}
         className="carousel-container"
       >
+        {/* iteration through array */}
         {PortfolioList.map((PortfolioList, i) => (
+          // Carousel Item
           <Carousel.Item key={i}>
             <img
               className="d-block w-100 portfolio-photo "
