@@ -28,8 +28,8 @@ function Contact() {
   //  Add message pop up for message sent
   return (
     <section className="contact-section">
+      {/* message */}
       <p className="message">
-        {" "}
         Please feel free to send me an email if you would like to speak to me
         about employment!
       </p>
