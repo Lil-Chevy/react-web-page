@@ -24,6 +24,8 @@ function Contact() {
         }
       );
   };
+
+  //  Add message pop up for message sent
   return (
     <section className="contact-section">
       <p className="message">
